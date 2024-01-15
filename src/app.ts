@@ -16,8 +16,8 @@ const bodyParser = require('body-parser');
 const getUrl = require('url');
 
 const app = express();
-const port = 3000;
-const baseUrl = '/var/www/html/dev/hcl-table/server/src/json-mock';
+const port = 3003;
+const baseUrl = './src/json-mock';
 const corsOptions = {
     origin: 'http://localhost:4200',
     optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
